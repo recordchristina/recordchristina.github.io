@@ -1,0 +1,38 @@
+body{
+	background-color: black;
+	font-family: Baskerville
+}
+
+h1{
+	color: white;
+}
+
+h3{
+	color: white;
+}
+
+p{
+	color: white;
+}
+
+ul{
+	color: white;
+}
+
+li{
+	color: white;
+}
+
+img{
+	width: 300px
+}
+
+#slogan{
+	color: white;
+	font-style: italic;
+}
+
+a{
+	color: white;
+	font-style: italic
+}
