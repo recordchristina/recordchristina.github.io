@@ -1,24 +1,23 @@
+header{
+	padding:30px;
+}
+
 body{
 	background-color: black;
 	color: white;
 	font-family: Baskerville
 }
 
-
-ul{
-	color: white;
-}
-
 img{
 	width: 300px
-}
-
-#slogan{
-	color: white;
-	font-style: italic;
 }
 
 a{
 	color: white;
 	font-style: italic
+}
+
+#girl {
+	width: 50%;
+	padding: 10px;
 }
