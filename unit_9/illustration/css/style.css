@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+header{
+	padding:30px;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+h1{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 2.5em;
+	letter-spacing: 2px;
+}
+
+h2{ 
+	text-align: center; 
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 2em;
+}
+
+body{
+	background-color: black;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.3em;
+	margin: 0 10em;
+	margin-bottom: 10em;
+}
+
+nav a{
+	font-size: 1.3em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 20px;
+}
+
+a{
+	color: white;
+}
+
+nav{
+	text-align: center;
+}
+
+img{
+	width: 100%;
+	padding-bottom: 5em;
+}
+
+#Title{
+	padding: 5em;
+}

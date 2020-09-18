@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+header{
+	padding:30px;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+h1{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 2.5em;
+	letter-spacing: 2px;
+}
+
+h2{ 
+	text-align: center; 
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+body{
+	background-color: black;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.3em;
+}
+
+nav a{
+	font-size: 1.3em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 20px;
+}
+
+img{
+	width: 100%;
+}
+
+a{
+	color: white;
+}
+
+section{
+	display: block;
+}
+
+#girl {
+	width: 40%;
+	padding: 0 1%;
+	float: left;
+}
+
+.clearfix{
+	clear: left; 
+	content: "";
+	display: block;
+}
+
+#about{
+	padding: 30px;
+}
+
+#work{
+	max-width: 80em;
+	padding: 5em 1em;
+}
+
+#contact{
+	padding-top: 100px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+figure{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	margin: 0;
+	padding: 1em;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#about > * {
+	width: 50%;
+	float: left;
+}
+
+#about div{
+	padding: 0 0 0 4em;
+}
+
+div{
+	display: block;
+}
+
+@media only screen and (max-width: 800px){
+	figure{
+		width: 100%;
+		padding: 2em;
+	}
+
+	#girl{
+		width: 100%;
+		float: none;
+		padding: 2em;
+	}
+
+	#about div{
+		width: 100%;
+		padding: 1.5em;
+	}
+}
